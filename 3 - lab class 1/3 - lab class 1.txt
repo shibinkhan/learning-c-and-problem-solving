@@ -22,3 +22,16 @@ https://lightoj.com/
 3-6 Understanding the problem statement and coming up with a solution.
 
 https://webwhiteboard.com/
+
+
+
+3.5-1 Simple Problem solving
+
+Problem Set: https://docs.google.com/document/d/e/2PACX-1vQ5ONjA0ohvAZ_9qZu3Z8Qic_lnDpy4rdxFhrClEQfnYIePNy3F0Ky7SnUxnQlHyigwpSi0AP0F0_TW/pub
+
+
+
+3.5.1-1 Practice Contest Problem set
+
+Contest link: https://vjudge.net/contest/489039
+Password: fortunato
