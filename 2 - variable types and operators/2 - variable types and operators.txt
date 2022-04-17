@@ -1,0 +1,74 @@
+2-1 Data types in C
+
+double হচ্ছে float এর মতই তবে এটা একেবারে একিউরেট আউটপুট দেয়, অন্যদিকে float কিছুটা আন একিউরেট আউটপুট দেয়। এক্ষেত্রে double আর float এর মধ্যে double ইউজ করা বেটার, double ভেরিয়েবল মেমোরিতে তুলনামূলক জায়গা বেশি দখল করে।
+double প্রিন্ট করার জন্য "%lf" ইউজ করা হয়।
+
+char বা character ভেরিয়েবল শুধুমাত্র একটা ক্যারেক্টার বা একটা সিম্বল রিপ্রেজেন্ট করে। 
+char প্রিন্ট করার জন্য "%c" ইউজ করা হয়।
+
+
+
+2-2 Reading data from keyboard
+
+scanf দিয়ে ইনপুট নেওয়া যায়। এভাবেঃ scanf("%d", &marks_math); ২য় প্যারামিটারের ভেরিয়েবল এর নাম লেখার আগে & লিখতে হয়। একই সাথে একাধিক ইনপুট নেওয়া যায়। এভাবেঃ scanf("%d %d", &marks_english, &marks_math); প্রথম %d ইংলিশ এর জন্য, ২য় %d ম্যাথ এর জন্য, আর প্যারামিটার গুলোর ভেরিয়েবল এর নাম লেখার আগে & লিখতে হয়।
+
+
+
+2-3 Arithmatic Operators
+
+int ইনপুট নিয়ে, ভাগ করলে যদি ভাগশেষ থাকার কথা তাহলে তা থাকবে না, পূর্ণ সংখ্যা পর্যন্ত আউটপুট পাওয়া যাবে। ভাগশেষ পেতে হলে float বা double ইনপুট নিতে হবে আর double ভেরিয়েবল নিতে হবে।
+
+ভাগশেষ পেতে হলে % ইউজ করতে হবে। এভাবেঃ
+    int remain = num1 % num2;
+    printf("Remain = %% %d", remain); এখানে ২টা % নিলে আউটপুট ঠিকভাবে আসবে। ১টা নিলে কাজ করবে না। কারণ ১টা % এর কাজ হচ্ছে ১টা প্যারামিটার রিপ্লেস করা, কিন্ত আমাদের দরকার হচ্ছে ১টা % প্রিন্ট করা, এজন্য ২টা % নিতে হবে।
+
+
+
+2-4 Assignment Operators
+
+Arithmatic Assignment Operators:
+
+int price = 20;
+    price = price + 10; or price += 10;
+    price = price - 10; or price -= 10;
+    price = price * 10; or price *= 10;
+    price = price / 10; or price /= 10;
+
+Unary Operators: 
+    postfix = i++; or i--;
+    prefix = ++i; or --i;
+
+    price = price + 1; or price += 1; or price ++;
+    price = price - 1; or price -= 1; or price --;
+
+
+
+2-5 Variable Type Conversion
+
+Implicit Type Conversion:
+    double realNumber = 20.75;
+    int number = realNumber;
+
+Explicit Type Convertion:
+    double realNumber = 20.75;
+    printf("number = %d\n", (int)realNumber);
+
+
+
+2-6 Simple C Prgram: Circle Area and Perimeter
+
+const ভেরিয়েবল আপার কেসে লিখতে হয়। const মানে পরবর্তীতে আর রি-এসাইন বা চেঞ্জ করা হবে না।
+% এর পর .2 দিলে দশমিক এর পরে ২ ঘর পর্যন্ত আউটপুট দেখাবে।
+
+পাই, π = 3.1416
+Parimiter বা পরিধি, C = 2πr
+Area বা ক্ষেত্রফল, A = πr^2
+বৃত্তের ব্যাসার্ধ ২ হলে পরিধি আর ক্ষেত্রফল সমান হয়।
+
+
+
+2.5-1 Practice Instruction [ Module 1 & 2]
+
+আজকের প্র্যাক্টিস ইন্সট্রাকশনঃ https://drive.google.com/file/d/1zfTiWsIjXVYDz57Z9pTmvK0ZYkPjJZ6p/view?usp=sharing
+
+Explanation of important terms (must read): https://drive.google.com/file/d/1LKSv86mZ7aoUrOdNLUW7FkJjGG7dGUL4/view?usp=sharing
