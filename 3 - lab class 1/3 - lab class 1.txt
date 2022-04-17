@@ -5,3 +5,20 @@ Explanation of important terms (অবশ্যই পড়ে দেখবে)
 
  
 
+3-1 How to debug syntax errors (Practice Problem 3)
+3-2 Printing and Variable Naming (Practice Problem 4 and 5)
+3-3 Division and Mod operations (Problems 6 and 7)
+3-4 Intro to Online Judges
+
+https://www.hackerrank.com/
+https://vjudge.net/
+https://codeforces.com/
+https://leetcode.com/
+https://lightoj.com/
+
+
+
+3-5 More about Online Judges (Vjudge, Common Pittfalls)
+3-6 Understanding the problem statement and coming up with a solution.
+
+https://webwhiteboard.com/
