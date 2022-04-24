@@ -15,19 +15,24 @@ int main() {
     }
     */
 
-
+    /*
     // or = ||
-    if(a == a || a == e || a == i || a == o || a == u) {
-        printf("vawel\n");
+    if(a > 0 || a > 10) {
+        printf("true\n");
     }
     else {
-        printf("consonant\n");
+        printf("false\n");
     }
-
+    */
 
 
     // not = !
-
+    if(!(a > 0 && a > 10)) {
+        printf("true\n");
+    }
+    else {
+        printf("false\n");
+    }
 
     return 0;
 }
