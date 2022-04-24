@@ -6,12 +6,12 @@ int main() {
     int year;
     scanf("%d", &year);
 
-    bool is_leap_year = (year%4 == 0) && (year%100 != 0) || (year%400 == 0);
+    bool is_leap_year = (year%4 == 0) && (year%100 != 0 || year%400 == 0);
     if(is_leap_year) {
-        printf("true\n");
+        printf("leap year\n");
     }
     else {
-        printf("false\n");
+        printf("not leap year\n");
     }
 
     return 0;
