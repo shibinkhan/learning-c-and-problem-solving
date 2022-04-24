@@ -2,6 +2,28 @@ Explanation of important topics: https://drive.google.com/file/d/1loNq2aL7ar75_j
 
 
 
+4-1 Decision Making with if-else Statement
+
+{} দিয়ে কোনো কিছু লেখা মানে একটা নতুন ব্লক শুরু করা। if এর ক্ষেত্রে ১ লাইন থাকলে {} না দিলেও হয়।
 
 
-{} দিয়ে কোনো কিছু লেখা মানে একটা নতুন ব্লক শুরু করা।
+
+4-2 Relational Operators and Boolean Variables
+
+Relational Operators: < <= >= > == !=
+
+if এর শর্তের মধ্যে 0 এর মান false, আর 0 বাদে বাকিগুলোর মান true হবে।
+
+true = 1, false = 0
+true, false বুলিয়ান ইউজ করার জন্য শুরুতে #include<stdbool.h> ডিক্লেয়ার করতে হয়।
+
+
+
+4-3 Nested if and if-elseIf-else statements
+4-4 Logical Operators
+4-5 Switch Case (Optional)
+
+Switch একটা ফাংশন। if-else if-else এর পরিবর্তে Switch Case ইউজ করা যায়, কিছুটা সহজ আর কোড কম লাগে প্রতি Case এর break; ইউজ করতে হয়। নাহয় Case টি এক্সিকিউট হয়ে সাম্নের Case গুলোও রান করে।
+যদি কোনো case ইনপুট না দেওয়া হয় বা ডিক্লেয়ার করা Case এর বাইরে অন্য কোনো operator ইউজ করা হয়, সেক্ষেত্রে default: ইউজ করা যায়, যাতে কোনো এরর থ্রো করা যায়, বা বাই ডিফল্ট যোগ বা বিয়োগ কয়াও যায়।
+
+
