@@ -3,7 +3,7 @@ Explanation of important topic: https://drive.google.com/file/d/1gfmtx1kcJ4OPQGN
 
 
 5-1 Repeating Work with loop
-
+5-2 Variants of the for loop
 
 
 
