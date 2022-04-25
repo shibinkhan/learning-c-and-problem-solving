@@ -6,4 +6,3 @@ Example:
     Area is 300
     Perimeter is 80
 */
-
