@@ -5,6 +5,11 @@ Explanation of important topic: https://drive.google.com/file/d/1gfmtx1kcJ4OPQGN
 5-1 Repeating Work with loop
 5-2 Variants of the for loop
 
+for এর মধ্যে কিছু না দিয়ে ২ টা ;; লিখলে সেটা একটা infinite loop হয়ে যায়।
+
+
+
+5-3 Usage of For loop
 
 
 

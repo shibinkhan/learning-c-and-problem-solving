@@ -5,6 +5,14 @@ int main() {
     int n;
     scanf("%d", &n);
 
+    // nth even number
+    int sum = 0;
+
+    for(int i=2; i<=2*n; i+=2) {
+        sum += i;
+        printf("i = %d\t sum = %d\n", i, sum);
+    }
+    printf("Final Sum = %d", sum);
 
 
     /*
