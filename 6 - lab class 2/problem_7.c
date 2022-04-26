@@ -7,12 +7,22 @@ int main() {
     printf("Numbers: ");
     scanf("%d %d", &number1, &number2);
 
+    /*
     if(number1 > number2) {
-        printf("%d", number1);
+        printf("Max = %d", number1);
+        printf("Min = %d", number2);
     }
     else{
-        printf("%d", number2);
+        printf("Max = %d", number2);
+        printf("Min = %d", number2);
     }
+    */
+
+    int max = number1 > number2 ? number1 : number2;
+    printf(" Max = %d\n", max);
+
+    int min = number1 < number2 ? number1 : number2;
+    printf(" Min = %d", min);
 
     return 0;
 }
