@@ -22,4 +22,4 @@ i তম জোর সংখ্যা 2i, n তম জোর সংখ্যা 
 
 module 5.5: Decision making and looping practice day 01
 
-আজকের প্র্যাক্টিস প্রবলেম সেট - https://docs.google.com/document/d/e/2PACX-1vT5t88lhfcMMCteDSM6qALCamd_DakXDF5CjpJtkg_KGscjIEs7ZiNc7Yv_EMRP4SXNqoyROEk_v9Ej/pub
+আজকের প্র্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/e/2PACX-1vT5t88lhfcMMCteDSM6qALCamd_DakXDF5CjpJtkg_KGscjIEs7ZiNc7Yv_EMRP4SXNqoyROEk_v9Ej/pub
