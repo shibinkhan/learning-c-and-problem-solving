@@ -23,11 +23,13 @@ int main() {
     scanf("%d %d %d", &A, &B, &C);
 
     int spaceLeftIn1 = A - B;
+    int remainInBottle2 = C - spaceLeftIn1;
+
     if(spaceLeftIn1 >= C) {
         printf("0");
     }
     else {
-        printf("%d", C-spaceLeftIn1);
+        printf("%d", remainInBottle2);
     }
 
     return 0;
