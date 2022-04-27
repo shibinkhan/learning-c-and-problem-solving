@@ -58,7 +58,7 @@ int main() {
 }
 */
 
-
+/*
 // d: 2 + 5 + 8 + 11 + 14 + …..   (প্রথম ১০টি পদ)
 
 #include<stdio.h>
@@ -70,6 +70,26 @@ int main() {
     for(int i=2, j=1; j<=target; i+=3, j++) {
         sum += i;
         printf("Add i = %d,\t nth = %d,\t Sum now = %d\n", i, j, sum);
+    }
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
+*/
+
+
+// e: 100 + 97 + 94 + 91 + …. (0 এর চেয়ে বড় পর্যন্ত)
+
+#include<stdio.h>
+
+int main() {
+    int target = 0;
+    int sum;
+
+    for(int i=100; i>target; i-=3) {
+        sum += i;
+        printf("Add i = %d,\t Sum now = %d\n", i, sum);
     }
 
     printf("Sum = %d", sum);
