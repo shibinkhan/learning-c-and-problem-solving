@@ -36,21 +36,3 @@ int main() {
 }
 */
 
-// c: 50 + 49 + 48 + 47 + …… (প্রথম ২০টি পদ)
-
-#include<stdio.h>
-
-int main() {
-    int target = 31;
-    int sum;
-
-    for(int i=50; i>=target; i--) {
-        sum += i;
-    }
-
-    printf("%d", sum);
-
-    return 0;
-}
-
-
