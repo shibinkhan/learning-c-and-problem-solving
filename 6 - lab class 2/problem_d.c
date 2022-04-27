@@ -17,6 +17,7 @@ int main() {
     printf("%d", left);
     */
 
+    /*
     // way 2
     int A, B, C;
     printf("Amount of waters: ");
@@ -31,6 +32,18 @@ int main() {
     else {
         printf("%d", remainInBottle2);
     }
+    */
+
+    // way 3
+    int A, B, C;
+    printf("Amount of waters: ");
+    scanf("%d %d %d", &A, &B, &C);
+
+    int spaceLeftIn1 = A - B;
+    int pour = spaceLeftIn1 < C ? spaceLeftIn1 : C;
+    int remainInBottle2 = C - pour;
+
+    printf("%d", remainInBottle2);
 
     return 0;
 }

@@ -1,6 +1,14 @@
-Contest Link: httpsvjudge.netcontest489994
-Password - looper
+Contest Link: https://vjudge.net/contest/489994
+Password: looper
 
 
 
 6-1 Application of if-else structure
+6-2 Finding min and max
+
+search online and learn "macro", এটি ফাংশনের মত ছোট খাটো কোড রিপিট করানোর জন্য ব্যাবহার করা হয়। এটা c এর একটা পার্ট।
+
+
+
+6-3: Online Judge Input Output
+
