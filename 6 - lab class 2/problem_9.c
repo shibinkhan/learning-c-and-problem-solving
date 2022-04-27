@@ -8,10 +8,11 @@ int main() {
     int sum;
 
     for(int i=1; i<=target; i++) {
+        printf("Add i = %d, Sum now = %d\n", i, sum);
         sum += i;
     }
 
-    printf("%d", sum);
+    printf("Sum = %d", sum);
 
     return 0;
 }
@@ -28,29 +29,50 @@ int main() {
 
     for(int i=1; i<=target; i+=2) {
         sum += i;
+        printf("Add i = %d, Sum now = %d\n", i, sum);
     }
 
-    printf("%d", sum);
+    printf("Sum = %d", sum);
 
     return 0;
 }
 */
 
+/*
 // c: 50 + 49 + 48 + 47 + …… (প্রথম ২০টি পদ)
 
 #include<stdio.h>
 
 int main() {
-    int target = 31;
+    int target = 29;
     int sum;
 
-    for(int i=50; i>=target; i--) {
+    for(int i=50, j=1; j<=target; i--, j++) {
         sum += i;
+        printf("Add i = %d, Sum now = %d\n", i, sum);
     }
 
-    printf("%d", sum);
+    printf("Sum = %d", sum);
 
     return 0;
 }
+*/
 
 
+// d: 2 + 5 + 8 + 11 + 14 + …..   (প্রথম ১০টি পদ)
+
+#include<stdio.h>
+
+int main() {
+    int target = 10;
+    int sum;
+
+    for(int i=2, j=1; j<=target; i+=3, j++) {
+        sum += i;
+        printf("Add i = %d,\t nth = %d,\t Sum now = %d\n", i, j, sum);
+    }
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
