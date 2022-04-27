@@ -11,4 +11,7 @@ search online and learn "macro", এটি ফাংশনের মত ছো�
 
 
 6-3: Online Judge Input Output
+6-4 Solving Kattis Nasty Hacks
+6-5 Finding sums with for loops
+6-6 Printing Patterns wiuth nested loops
 
