@@ -15,3 +15,4 @@ search online and learn "macro", এটি ফাংশনের মত ছো�
 6-5 Finding sums with for loops
 6-6 Printing Patterns wiuth nested loops
 6-7 Solving Kattis Tarifa
+6-8 C Program for calculating GPA)
