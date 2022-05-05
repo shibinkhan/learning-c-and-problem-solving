@@ -16,3 +16,11 @@ search online and learn "macro", এটি ফাংশনের মত ছো�
 6-6 Printing Patterns wiuth nested loops
 6-7 Solving Kattis Tarifa
 6-8 C Program for calculating GPA)
+
+প্রোগ্রামে নতুন কোনো ফাংশনালিটি এড করাকে বলে নতুন ফিচার এড করা।
+
+
+
+6.5 -1 : Practice Day problem set
+
+আজকের প্র‍্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/e/2PACX-1vQ8HxxEiP2m6MJqY9AczlqQT5jWfqlGkaCcLegN7bL03D_P6C_f88PdQ4ox-wsCv9E38zDzZX2gpEGi/pub
