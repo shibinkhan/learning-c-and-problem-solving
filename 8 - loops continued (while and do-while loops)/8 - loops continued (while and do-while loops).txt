@@ -1,1 +1,18 @@
 Explanation of important words and terms: https://drive.google.com/file/d/1oEe-R1qNpk5ve3zASXRiZOAWT34iEAq4/view?usp=drivesdk
+
+
+
+8-1 While Loops
+
+for loop এ একটা একটা কাউন্টার থাকে যে এতবার লুপ টা চলবে, অপর দিকে while loop এ কোনো কাউন্টার থাকে না, একটা কন্ডিশন অনুযায়ী চলতে থাকে। যখন কোনো কাউন্টারের বিসয় না থাকে আর যতক্ষন না একটা পারটিকুলার কন্ডিশন ফুলফিল না হয় ততক্ষন while loop ইউজ করতে হয়।
+
+
+
+8-2 Use of While Loops
+
+একটা সংখ্যাকে ১০ দিয়ে ভাগ করলে যে ভাগশেষ থাকে তাই হলো ওই সংখ্যার শেষের সংখ্যা।  ১০০ দিয়ে ভাগ করলে যে ভাগশেষ থাকে তাই হলো ওই সংখ্যার শেষের ২টি সংখ্যা।
+
+
+
+8-3 Finding GCD with Loops
+
