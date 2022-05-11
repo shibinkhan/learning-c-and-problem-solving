@@ -17,7 +17,7 @@ int main() {
     int money = 0;
     int target = 100;
     while (money < target) {
-        // printf("Give more money: ");
+        printf("Give more money: ");
         int given;
         scanf("%d", &given);
 
