@@ -16,3 +16,7 @@ for loop এ একটা একটা কাউন্টার থাকে য
 
 8-3 Finding GCD with Loops
 
+GCD = Greatest Common Divisor
+
+
+

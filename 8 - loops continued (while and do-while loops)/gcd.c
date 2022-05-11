@@ -11,7 +11,7 @@ int main() {
         b = a;
         printf("%d %d\n", a, b);
     }
-    printf("GCD = %d\n", b);
+    // printf("GCD = %d\n", b);
 
     return 0;
 }
