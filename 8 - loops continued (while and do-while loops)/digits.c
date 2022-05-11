@@ -8,7 +8,7 @@ int main() {
     while(num > 0) {
         int digit = num%10;
         num /= 10;
-        //printf("digit = %d, num = %d\n", digit, num);
+        // printf("digit = %d, num = %d\n", digit, num);
         reversed = reversed * 10 + digit;
     }
     // printf("reversed = %d\n", reversed);
