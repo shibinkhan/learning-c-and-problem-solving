@@ -9,7 +9,7 @@ int main() {
         int remain = b%a;
         a = remain;
         b = a;
-        printf("%d %d\n", a, b);
+        // printf("%d %d\n", a, b);
     }
     // printf("GCD = %d\n", b);
 
