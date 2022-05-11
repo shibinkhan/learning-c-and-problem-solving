@@ -11,7 +11,8 @@ int main() {
         // printf("digit = %d, num = %d\n", digit, num);
         reversed = reversed * 10 + digit;
     }
-    // printf("reversed = %d\n", reversed);
+    
+    printf("reversed = %d\n", reversed);
 
     return 0;
 }

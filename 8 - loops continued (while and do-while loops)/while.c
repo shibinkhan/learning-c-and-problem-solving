@@ -20,6 +20,7 @@ int main() {
         printf("Give more money: ");
         int given;
         scanf("%d", &given);
+        
         money += given;
         printf("Current money = %d\n", money);
     }
