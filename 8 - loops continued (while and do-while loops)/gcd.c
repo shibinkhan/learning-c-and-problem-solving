@@ -3,7 +3,7 @@
 int main() {
     // printf("Numbers: ");
     int a, b;
-    scanf("%d %d", &a, &b);
+    // scanf("%d %d", &a, &b);
 
     while(a != 0) {
         int remain = b%a;
