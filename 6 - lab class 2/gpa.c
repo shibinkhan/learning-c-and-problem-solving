@@ -2,16 +2,16 @@
 #include<stdbool.h>
 
 int main() {
-    // printf("Total Subjects: ");
+    printf("Total Subjects: ");
     int totalSubjects;
-    // scanf("%d", &totalSubjects);
+    scanf("%d", &totalSubjects);
 
     bool failed = false;
     bool input = true;
 
     double totalGradePoint = 0;
     for(int i=1; i<=totalSubjects; i++) {
-        printf("Marks of Subject %d: ", i);
+        // printf("Marks of Subject %d: ", i);
         int marks, gradePoint;
         scanf("%d", &marks);
 
