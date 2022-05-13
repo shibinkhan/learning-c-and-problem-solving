@@ -2,7 +2,7 @@
 #include<stdbool.h>
 
 int main() {
-    printf("Total Subjects: ");
+    // printf("Total Subjects: ");
     int totalSubjects;
     scanf("%d", &totalSubjects);
 
