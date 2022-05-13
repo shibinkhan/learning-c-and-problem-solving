@@ -36,19 +36,22 @@ int main() {
                 printf("Grade: C\n");
                 gradePoint = 2;
             }
-            
+
             else if(marks >= 40 && marks <=49) {
                 printf("Grade: D\n");
                 gradePoint = 1;
             }
+
             else {
                 printf("Grade: F\n");
                 gradePoint = 0;
                 failed = true;
             }
+
             totalGradePoint +=gradePoint;
             printf("Grade Point = %d\n", gradePoint);
         }
+        
         else {
             input = false;
         }
