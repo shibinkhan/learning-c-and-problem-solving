@@ -4,7 +4,7 @@
 int main() {
     // printf("Total Subjects: ");
     int totalSubjects;
-    scanf("%d", &totalSubjects);
+    // scanf("%d", &totalSubjects);
 
     bool failed = false;
     bool input = true;
