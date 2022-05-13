@@ -13,7 +13,7 @@ int main() {
     for(int i=1; i<=totalSubjects; i++) {
         // printf("Marks of Subject %d: ", i);
         int marks, gradePoint;
-        scanf("%d", &marks);
+        // scanf("%d", &marks);
 
         // grading
         if(marks <= 100 && marks >=0) {
