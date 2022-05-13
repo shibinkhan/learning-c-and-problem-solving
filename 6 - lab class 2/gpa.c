@@ -11,9 +11,9 @@ int main() {
 
     double totalGradePoint = 0;
     for(int i=1; i<=totalSubjects; i++) {
-        // printf("Marks of Subject %d: ", i);
+        printf("Marks of Subject %d: ", i);
         int marks, gradePoint;
-        // scanf("%d", &marks);
+        canf("%d", &marks);
 
         // grading
         if(marks <= 100 && marks >=0) {
@@ -21,10 +21,12 @@ int main() {
                 printf("Grade: A+\n");
                 gradePoint = 5;
             }
+
             else if(marks >= 70 && marks <=79) {
                 printf("Grade: A\n");
                 gradePoint = 4;
             }
+            
             else if(marks >= 60 && marks <=69) {
                 printf("Grade: B\n");
                 gradePoint = 3;
