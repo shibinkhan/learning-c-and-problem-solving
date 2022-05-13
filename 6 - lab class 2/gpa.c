@@ -26,15 +26,17 @@ int main() {
                 printf("Grade: A\n");
                 gradePoint = 4;
             }
-            
+
             else if(marks >= 60 && marks <=69) {
                 printf("Grade: B\n");
                 gradePoint = 3;
             }
+
             else if(marks >= 50 && marks <=59) {
                 printf("Grade: C\n");
                 gradePoint = 2;
             }
+            
             else if(marks >= 40 && marks <=49) {
                 printf("Grade: D\n");
                 gradePoint = 1;
