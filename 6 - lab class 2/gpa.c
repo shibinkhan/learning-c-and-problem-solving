@@ -51,7 +51,7 @@ int main() {
             totalGradePoint +=gradePoint;
             printf("Grade Point = %d\n", gradePoint);
         }
-        
+
         else {
             input = false;
         }
@@ -61,9 +61,11 @@ int main() {
     if(input == false) {
         printf("Wrong Input");
     }
+
     else if(failed == true) {
         printf("You're failed, GPA = 0.00");
     }
+    
     else if(failed == false) {
         double gpa = (double)totalGradePoint / totalSubjects;
         printf("Passed, Total GPA = %.2lf", gpa);
