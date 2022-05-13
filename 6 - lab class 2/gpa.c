@@ -65,10 +65,10 @@ int main() {
     else if(failed == true) {
         printf("You're failed, GPA = 0.00");
     }
-    
+
     else if(failed == false) {
         double gpa = (double)totalGradePoint / totalSubjects;
-        printf("Passed, Total GPA = %.2lf", gpa);
+        // printf("Passed, Total GPA = %.2lf", gpa);
     }
 
     return 0;
