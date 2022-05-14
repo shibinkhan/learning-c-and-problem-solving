@@ -23,11 +23,10 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
 
-    int remain;
     while(a != 0) {
-        remain = b%a;
-        a = remain;
+        int remain = b%a;
         b = a;
+        a = remain;
         printf("%d %d\n", a, b);
     }
     printf("GCD = %d\n", b);
