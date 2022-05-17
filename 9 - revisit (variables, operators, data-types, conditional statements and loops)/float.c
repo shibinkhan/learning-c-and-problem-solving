@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<stdlib.h>
+#include<math.h>
 
 int main() {
     float num = 20.41;
-    // printf("%f\n", num);
+    printf("%f\n", num);
 
     double num2 = 20.41;
-    // printf("%lf\n", num2);
+    printf("%lf\n", num2);
 
     int num3 = 100;
 
@@ -18,7 +18,6 @@ int main() {
 
     int root = sqrt(num3);
     printf("%d\n", root);
-
 
     return 0;
 }
