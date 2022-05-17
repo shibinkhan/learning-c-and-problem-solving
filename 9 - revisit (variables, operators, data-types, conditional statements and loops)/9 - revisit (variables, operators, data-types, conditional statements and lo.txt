@@ -4,3 +4,33 @@ Explanation of important concepts and Practice problem set: https://drive.google
 
 9-1 Variables and Operators Revisited
 
+var লেখার নিয়মঃ
+    var-type var-name = value;
+
+
+
+9-2 int data type revisited
+
+    int
+    short (এটা ইউজ করলে মেমোরি কম ইউজ হয়)
+    long
+    long long (অনেক বড় ভ্যালু হলে এটি ইউজ করতে হয়, আর এটা প্রিন্ট দেওার জন্য %lld specifier ইউজ করতে হয়)
+    unsigned (এটা নেগেটিভ হতে পারে না, আর এটা প্রিন্ট দেওার জন্য %u specifier ইউজ করতে হয়)
+
+int এর অপারেটিং রেঞ্জ = -2^31        to   2^31-1
+             -2147483648 to 2147483647
+
+short int এর অপারেটিং রেঞ্জ = -2^15    to 2^15-1
+                    -32768 to 32767
+
+long long int এর অপারেটিং রেঞ্জ = -2^63                     to       2^63-1
+                   -9223372036854775808 to 9223372036854775807
+
+unsigned int এর অপারেটিং রেঞ্জ 0 to 4e9
+
+printf("%d\n", INT_MAX); দিয়ে int এর সবচেয়ে বড় ভ্যালু পাওয়া যায়।
+printf("%d\n", INT_MIN); দিয়ে int এর সবচেয়ে ছোট ভ্যালু পাওয়া যায়।
+printf("%d\n", SHRT_MIN); দিয়ে short এর সবচেয়ে ছোট ভ্যালু পাওয়া যায়।
+printf("%lld\n", LONG_MIN); দিয়ে long long এর সবচেয়ে ছোট ভ্যালু পাওয়া যায়।
+
+অপারেটিং রেঞ্জের বাহিরের নাম্বার দিলে একটা উলটা পালটা ভেলু আসে, একে বলে ওভারফ্লো।
