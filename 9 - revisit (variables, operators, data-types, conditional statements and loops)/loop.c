@@ -1,9 +1,12 @@
 #include<stdio.h>
-#include<math.h>
 
 int main() {
-    double as = ceil(-7.5);
-    printf("%lf", as);
+    for (int i=1; i<=10; i++) {
+            for (int j=1; j<=10; j++) {
+                printf("%d\t", i*j);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
