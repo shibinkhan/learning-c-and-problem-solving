@@ -62,3 +62,17 @@ ASCII তে, 00 - 31 & 127 are non printable or control characters
 65 - 90 = A - Z
 97 - 122 = a - z
 48 - 57 = 0 - 9
+অর্থাৎ এখানে A আর 65 একই জিনিস।
+
+toupper(), tolower(), এগুলো  #include<ctype.h> এর মধ্যে থাকে।
+
+
+
+9-5 Conditional Statements revisited
+
+
+
+
+
+9-6 loops revisited
+
