@@ -70,7 +70,7 @@ toupper(), tolower(), এগুলো  #include<ctype.h> এর মধ্যে 
 
 9-5 Conditional Statements revisited
 
-
+if এর statements ১ লাইনের হলে {} এর মধ্যে না লিখলেও চলে।
 
 
 
