@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 
 int main() {
     char ch;
@@ -22,7 +23,15 @@ int main() {
     if (ch >= 'A' && ch <='Z') {
         int position = ch -'A';
         char toLower = position + 'a';
-        printf("%c", toLower);
+        printf("%c\n", toLower);
+    }
+    else{
+        printf("Please give a uppercase letter");
+    }
+
+    // way- <ctype.h>
+    if (isupper(ch)) {
+        printf("%c\n", tolower(ch));
     }
     else{
         printf("Please give a uppercase letter");
