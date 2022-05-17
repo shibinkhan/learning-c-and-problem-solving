@@ -35,3 +35,30 @@ printf("%lld\n", LONG_MIN); দিয়ে long long এর সবচেয়ে ছ
 
 float এর ওয়ার্কিং রেঞ্জ double এর থেকে অনেক কম, আর float এর থেকে double এর আউটপুট অনেক বেশি একুরেট। আউটপুট যদি inf আসে, এর মানে ওভারফ্লো হইছে।
 
+pow(number or varName, power); এই ফাংশন ইউজ করে সহজে কোনো নাম্বারের কিউব বা স্কয়ার বের করা যায়।
+sqrt(number or varName); এই ফাংশন ইউজ করে সহজে কোনো নাম্বারের স্কয়ার রুট বের করা যায়।
+ceil(number or varName); এই ফাংশন ইউজ করে সহজে কোনো float, double type নাম্বারকে তার ইমিডিয়েট বড় পূর্ণ সঙ্খ্যায় রুপান্তর করা যায়।
+floor(number or varName); এই ফাংশন ইউজ করে সহজে কোনো float, double type নাম্বারকে তার ইমিডিয়েট ছোট পূর্ণ সঙ্খ্যায় রুপান্তর করা যায়।
+
+এই ফাংশন গুলো থাকে #include<math.h> হেডার এর মধ্যে।
+
+
+
+9-4 char data type revisited
+
+char ch = 'A';
+printf("%c", ch);
+printf("%d", ch);
+এখানে আউটপুট A 65 আসবে, কারণ %c এর জন্য ক্যারেক্টার আর %d এর জন্য এর ইন্টিজার নাম্বার প্রিন্ট হবে।
+
+আবার,
+int num = 65;
+printf("%c", ch);
+printf("%d", ch);
+এখানেও আউটপুট A 65 আসবে, কারণ %c এর জন্য ক্যারেক্টার আর %d এর জন্য এর ইন্টিজার নাম্বার প্রিন্ট হবে।
+
+ASCII তে, 00 - 31 & 127 are non printable or control characters
+32 - 126 are printable
+65 - 90 = A - Z
+97 - 122 = a - z
+48 - 57 = 0 - 9
