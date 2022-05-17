@@ -20,18 +20,11 @@ int main() {
     }
 */
     // upper to lower. lower to upper
-    if (ch >= 'A' && ch <='Z') {
-        int position = ch -'A';
-        char toLower = position + 'a';
-        printf("%c\n", toLower);
-    }
-    else{
-        printf("Please give a uppercase letter");
-    }
+
 
     // way- <ctype.h>
-    if (isupper(ch)) {
-        printf("%c\n", tolower(ch));
+    if (!(ch < 'a' || ch > 'z')) {
+        printf("lower");
     }
     else{
         printf("Please give a uppercase letter");

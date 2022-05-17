@@ -77,3 +77,10 @@ if এর statements ১ লাইনের হলে {} এর মধ্যে 
 9-6 loops revisited
 
 
+
+9.5 Recap C programming concept, Practice Day - 01
+
+আজকের প্র‍্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/1EkOeF_qerE2gz8vnyeFbEurbpPUa9DnlrYNLPLzohYM/edit?usp=drivesdk
+
+প্র‍্যাক্টিস কন্টেস্ট এর লিংকঃ https://vjudge.net/contest/490793
+পাসওয়ার্ডঃ while_true
