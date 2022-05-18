@@ -6,3 +6,10 @@
 10-2 Solving Bit++ (Practice Contest B)
 
 scanf(" %d"); এখানে স্পেসিফায়ার এর আগে একটা স্পেস দেওার কারনে সকল নিউ লাইন ইগনোর করবে।
+
+
+
+10-3 Solving Poor (Practice Contest G)
+10-4 Solving Restoring Three Numbers
+
+https://codeforces.com/problemset/problem/1154/A
