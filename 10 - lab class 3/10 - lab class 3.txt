@@ -13,3 +13,10 @@ scanf(" %d"); এখানে স্পেসিফায়ার এর আগে
 10-4 Solving Restoring Three Numbers
 
 https://codeforces.com/problemset/problem/1154/A
+
+
+
+10.5 Week 03 Practice Day 02
+
+কন্টেস্ট লিংকঃ https://vjudge.net/contest/491097
+পাসওয়ার্ডঃ practicepracticepractice
