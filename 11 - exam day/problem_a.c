@@ -1,7 +1,7 @@
-#include<stdio.h>
+/*#include<stdio.h>
 
 int main() {
-    int n,k,a;
+    int n, k, a;
     scanf("%d %d %d", &n, &k, &a);
 
     int ans = 0;
@@ -10,7 +10,7 @@ int main() {
     }
     else {
         ans = a + k - 1;
-    };
+    }
     ans = ans % n;
     if (ans == 0) {
         ans = n;
@@ -19,9 +19,9 @@ int main() {
 
     return 0;
 }
+*/
 
 
-/*
 #include<stdio.h>
 
 int main() {
@@ -32,10 +32,9 @@ int main() {
         printf("1");
     }
     else {
-        int output = (a-1) + k%n;
+        int output = (a-1) + (n-n%k);
         printf("%d", output);
     }
 
     return 0;
 }
-*/
