@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
 
     if (a == b) {
-        if (b == c {
+        if (b == c) {
             printf("No");
         }
     }
