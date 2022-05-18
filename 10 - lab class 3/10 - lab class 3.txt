@@ -4,3 +4,5 @@
 
 10-1 Solving Bear And Big Brother (Practice Contest Problem H)
 10-2 Solving Bit++ (Practice Contest B)
+
+scanf(" %d"); এখানে স্পেসিফায়ার এর আগে একটা স্পেস দেওার কারনে সকল নিউ লাইন ইগনোর করবে।
