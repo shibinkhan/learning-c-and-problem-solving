@@ -9,7 +9,7 @@ int main() {
             printf("No");
         }
     }
-    else if (a != b && b != c) {
+    else if (a != b && b != c && a != c) {
         printf("No");
     }
     else {
