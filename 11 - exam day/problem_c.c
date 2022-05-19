@@ -21,6 +21,7 @@ int main() {
     else {
         come = t * 60;
     }
+
     // x
     int x2;
     if (x==0) {
@@ -29,15 +30,9 @@ int main() {
     else {
         x2 = (x * 60) + 30;
     }
-    printf("%d\n", go);
-    printf("%d\n", come);
-    printf("%d\n", x2);
 
     // final
     if (go < x2 && come > x2) {
-        printf("Yes");
-    }
-    else if (go > come) {
         printf("Yes");
     }
     else {
