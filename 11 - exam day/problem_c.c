@@ -34,7 +34,10 @@ int main() {
     printf("%d\n", x2);
 
     // final
-    if (go <= x2 && come > x2) {
+    if (go < x2 && come > x2) {
+        printf("Yes");
+    }
+    else if (go > come) {
         printf("Yes");
     }
     else {
