@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main() {
     int n, k, a;
@@ -19,9 +19,9 @@ int main() {
 
     return 0;
 }
-*/
 
 
+/*
 #include<stdio.h>
 
 int main() {
@@ -32,9 +32,10 @@ int main() {
         printf("1");
     }
     else {
-        int output = (a-1) + (n-n%k);
+        int output = (a-1) + k%n;
         printf("%d", output);
     }
 
     return 0;
 }
+*/

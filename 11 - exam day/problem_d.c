@@ -1,23 +1,32 @@
 #include<stdio.h>
 
 int main() {
-    int n,k,a;
-    scanf("%d %d %d", &n, &k, &a);
+    int n;
+    scanf("%d", &n);
 
-    int ans = 0;
-    if (k > (n-a+1)) {
-        ans = k - n + a - 1;
+    int A = 0;
+    int D = 0;
+    for (int i=1; i<=n; i++) {
+        char s;
+        scanf(" %c", &s);
+
+        if (s=='A') {
+            A ++;
+        }
+        if (s=='D') {
+            D ++;
+        }
     }
-    else {
-        ans = a + k - 1;
-    };
 
-    ans = ans % n;
-    if (ans == 0) {
-        ans = n;
+    if (A == D) {
+        printf("Friendship");
     }
-
-    printf("%d", ans);
+    else if (A > D) {
+        printf("Anton");
+    }
+    else if (A < D) {
+        printf("Danik");
+    }
 
     return 0;
 }
