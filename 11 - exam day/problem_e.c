@@ -31,7 +31,7 @@ int main() {
     else if (aoki > takahashi) {
         printf("Aoki");
     }
-    else {
+    else if (takahashi == aoki) {
         printf("Draw");
     }
 
