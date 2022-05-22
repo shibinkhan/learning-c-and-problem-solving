@@ -11,5 +11,8 @@ int main() {
     int bca = b*100 + c*10 + a;
     int cab = c*100 + a*10 + b;
 
+    int ans = abc + bca + cab;
+    printf("%d", ans);
+
     return 0;
 }
