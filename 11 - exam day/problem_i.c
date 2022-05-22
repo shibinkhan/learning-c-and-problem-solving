@@ -7,6 +7,9 @@ int main() {
     if (x>=90) {
         printf("expert");
     }
-
+    if (x>=70 && x<90) {
+        int ans = 90 - x;
+        printf("%d", ans);
+    }
     return 0;
 }
