@@ -14,6 +14,15 @@ int main() {
                 printf("I hate that ");
             }
         }
+
+        if (i%2==0) {
+            if (i==n) {
+                printf("I love ");
+            }
+            else {
+                printf("I love that ");
+            }
+        }
     }
     printf("it");
 
