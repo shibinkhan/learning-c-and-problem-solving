@@ -15,6 +15,10 @@ int main() {
         int ans = 70 - x;
         printf("%d", ans);
     }
+    if (x>=0 && x<40) {
+        int ans = 40 - x;
+        printf("%d", ans);
+    }
 
     return 0;
 }
