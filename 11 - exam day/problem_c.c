@@ -1,3 +1,4 @@
+/*
 #include<stdio.h>
 
 int main() {
@@ -38,6 +39,18 @@ int main() {
     else {
         printf("No");
     }
+
+    return 0;
+}
+*/
+
+#include<stdio.h>
+
+int main() {
+    int s, t, x;
+    scanf("%d %d %d", &s, &t, &x);
+
+
 
     return 0;
 }
