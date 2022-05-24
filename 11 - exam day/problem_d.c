@@ -17,7 +17,6 @@ int main() {
             D ++;
         }
     }
-
     if (A == D) {
         printf("Friendship");
     }
