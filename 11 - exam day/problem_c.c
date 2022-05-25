@@ -50,7 +50,5 @@ int main() {
     int s, t, x;
     scanf("%d %d %d", &s, &t, &x);
 
-
-
     return 0;
 }
