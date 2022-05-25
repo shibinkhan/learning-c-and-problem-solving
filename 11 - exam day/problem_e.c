@@ -47,6 +47,7 @@ int main() {
     scanf("%d %d %d %d %d %d %d", &a, &b, &c, &d, &e, &f, &x);
 
     int x2 = x;
+
     int run1 = 0;
     while (x != 0) {
         if (x>=a) {
@@ -57,6 +58,7 @@ int main() {
             run1 += x;
             x = 0;
         }
+
         //rest1
         if (x>=c) {
             x -= c;
@@ -76,6 +78,7 @@ int main() {
             run2 += x2;
             x2 = 0;
         }
+
         //rest2
         if (x2>=f) {
             x2 -= f;
@@ -88,13 +91,16 @@ int main() {
     int total1 = run1 * b;
     int total2 = run2 * e;
 
+    // printf("%d\n", total1);
+    // printf("%d\n", total2);
+
     if (total1 > total2) {
         printf("Takahashi");
     }
     else if (total1 < total2) {
         printf("Aoki");
     }
-    else {
+    else if (total1 == total2) {
         printf("Draw");
     }
 
