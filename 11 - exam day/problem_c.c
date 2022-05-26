@@ -1,4 +1,30 @@
+// right way
+
+#include<stdio.h>
+
+int main() {
+    int s, t, x;
+    scanf("%d %d %d", &s, &t, &x);
+
+    if(s<=x && t>x) {
+        printf("Yes");
+    }
+    else if(s>=x && t>x) {
+        printf("Yes");
+    }
+    else if(s<=x && t<x && s>t) {
+        printf("Yes");
+    }
+    else {
+         printf("No");
+    }
+
+    return 0;
+}
+
 /*
+// wrong way
+
 #include<stdio.h>
 
 int main() {
@@ -43,25 +69,3 @@ int main() {
     return 0;
 }
 */
-
-#include<stdio.h>
-
-int main() {
-    int s, t, x;
-    scanf("%d %d %d", &s, &t, &x);
-
-    if(s<=x && t>x) {
-        printf("Yes");
-    }
-    else if(s>=x && t>x) {
-        printf("Yes");
-    }
-    else if(s<=x && t<x && s>t) {
-        printf("Yes");
-    }
-    else {
-         printf("No");
-    }
-
-    return 0;
-}
