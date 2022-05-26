@@ -5,4 +5,3 @@ Explanation of important terms and problem set for exercise: https://drive.googl
 12-1 Introduction To Arrays
 
 array লেখার নিয়মঃ  type name[size];
-
