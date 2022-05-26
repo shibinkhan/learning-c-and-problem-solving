@@ -4,13 +4,13 @@ Explanation of important terms and problem set for exercise: https://drive.googl
 
 12-1 Introduction To Arrays
 
-array লেখার নিয়মঃ  type name[size];
+array ডিক্লেয়ার করার নিয়মঃ  type name[size];
 
 
 
 12-2 How arrays work, Size of an array
 
-array index মানে পজিশন, যেকোনো ভ্যালুর পজিশন। array তে কোনো ভ্যালু এসাইন করা না হলে তখন তাকে বলে গারবেজ ভ্যালু।
+array index মানে পজিশন, যেকোনো ভ্যালুর পজিশন। array তে কোনো ভ্যালু এসাইন করা না হলে তখন তাকে বলে গারবেজ ভ্যালু। default value হিসেবে 0 থাকে।
 
 int ভেরিয়েবল রিপ্রেজেন্ট/স্টোর করতে 4 byte জায়গা বা স্টোরেজ লাগে।
 char ভেরিয়েবল রিপ্রেজেন্ট/স্টোর করতে 1 byte জায়গা বা স্টোরেজ লাগে।
@@ -23,4 +23,12 @@ array এর size বের করার জন্য sizeof(arrayName) / sizeof
 
 
 12-3 Array Initialization
+
+ভ্যালু এসাইন সহ ডিক্লেয়ার করার নিয়মঃ type name[size] = {values};
+array ডিক্লেয়ার করতে হলে size সহ ডিক্লেয়ার করতে হয়। size ছাড়া করা যায় না। আগে ডিক্লেয়ার করে পরে একসাথে সব ভ্যালু এসাইন করা যায় না। পরে একটা একটা করে ডিক্লেয়ার করতে হয়।
+putchar(); ফাংশন দিয়ে একটা একটা ক্যারেক্টার প্রিন্ট করা যায়।
+
+
+
+12-4 Variable length arrays
 
