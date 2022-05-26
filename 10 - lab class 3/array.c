@@ -4,10 +4,11 @@ int main() {
     int mark[3];
 
     for (int i=0; i<=2; i++) {
-        printf("Enter student %d Mark:", i);
-        scanf("%d", mark[i]);
+        printf("Enter student %d Mark: ", i+1);
+        scanf("%d", &mark[i]);
+        mark[i] += 5;
+        printf("Student %d got %d\n", i+1, mark[i]);
     }
-    printf("%d", mark);
 
     return 0;
 }
