@@ -8,6 +8,7 @@ int main() {
 
     int x2 = x;
 
+    // Takahashi
     int run1 = 0;
     while (x != 0) {
         if (x>=a) {
@@ -28,6 +29,7 @@ int main() {
         }
     }
 
+    // Aoki
     int run2 = 0;
     while (x2 != 0) {
         if (x2>=d) {

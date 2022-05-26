@@ -6,6 +6,7 @@ int main() {
 
     int A = 0;
     int D = 0;
+    
     for (int i=1; i<=n; i++) {
         char s;
         scanf(" %c", &s);
@@ -17,6 +18,7 @@ int main() {
             D ++;
         }
     }
+
     if (A == D) {
         printf("Friendship");
     }
