@@ -5,3 +5,22 @@ Explanation of important terms and problem set for exercise: https://drive.googl
 12-1 Introduction To Arrays
 
 array লেখার নিয়মঃ  type name[size];
+
+
+
+12-2 How arrays work, Size of an array
+
+array index মানে পজিশন, যেকোনো ভ্যালুর পজিশন। array তে কোনো ভ্যালু এসাইন করা না হলে তখন তাকে বলে গারবেজ ভ্যালু।
+
+int ভেরিয়েবল রিপ্রেজেন্ট/স্টোর করতে 4 byte জায়গা বা স্টোরেজ লাগে।
+char ভেরিয়েবল রিপ্রেজেন্ট/স্টোর করতে 1 byte জায়গা বা স্টোরেজ লাগে।
+long long ভেরিয়েবল রিপ্রেজেন্ট/স্টোর করতে 8 byte জায়গা বা স্টোরেজ লাগে।
+একটা int array রিপ্রেজেন্ট করতে সেই array তে যতগুলো ইন্টিজার থাকে তার 4 গুন byte জায়গা বা স্টোরেজ লাগে।
+
+কতটুকু জায়গা লাগবে তা sizeof(); ফাংশন দিয়ে চেক করা যায়।
+array এর size বের করার জন্য sizeof(arrayName) / sizeof(0); ইউজ করা যায়।
+
+
+
+12-3 Array Initialization
+
