@@ -11,5 +11,6 @@ int main() {
         printf("Student %d got %d\n", i+1, mark[i]);
     }
 
+
     return 0;
 }
