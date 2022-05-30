@@ -5,8 +5,5 @@ int main() {
     scanf("%d", &n);
     int values[n];
 
-
-
-
     return 0;
 }
