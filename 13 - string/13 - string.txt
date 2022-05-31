@@ -1,0 +1,5 @@
+Explanation of Important terms & practice problem set [must read]: https://drive.google.com/file/d/1UAYMngrYWhyh38zARPTGhYv5TAmJ79ze/view?usp=sharing
+
+
+
+13-1 Introduction to strings
