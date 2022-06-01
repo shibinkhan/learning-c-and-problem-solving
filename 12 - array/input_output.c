@@ -1,8 +1,11 @@
 #include<stdio.h>
 
 int main() {
-    char str[] = "This is a string.";
-    printf("%s\n", str);
+    printf("Enter your Name: ");
+
+    char name[100];
+    scanf("%s", name);
+    printf("Hello, %s\n", name);
 
     // int sz = sizeof(st) / sizeof(st[0]);
 
