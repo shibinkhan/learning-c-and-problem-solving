@@ -3,14 +3,12 @@
 int main() {
     printf("Enter your Name: ");
 
-    char name[100];
+    char name[10];
     //scanf("%s", name);
     //printf("Hello, %s\n...What the fuck do you want?", name);
 
-    gets(name);
-    puts(name);
-
-    // int sz = sizeof(st) / sizeof(st[0]);
+    fgets(name, 10, stdin);
+    printf("Hello, %s\n", name);
 
     return 0;
 }
