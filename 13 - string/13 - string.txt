@@ -36,4 +36,10 @@ string এর উপর লুপ চালিয়ে length বের করা 
 
 13-4 Copy Strings, strcpy
 
+যখনি কোনো array তে ভ্যালু এসাইন করা হয় এটা নিশ্চিত করতে হবে যে তার শেষে একটা \0 যেনো থাকে।
+একটা array থেকে আরেকটা array তে ভ্যালু কপি করার জন্য strcpy(arrayCopyTo, arrayCopyFrom); ইউজ করতে হয়। আর এটা #include<string.h> header এর মধ্যে থাকে। arrayCopyTo এর size এর থেকে যদি arrayCopyFrom এর ভ্যালুর length  বড় হয় তখন strncpy(arrayCopyTo, arrayCopyFrom, 9);
+
+
+
+13-5 Concatenating two strings
 
