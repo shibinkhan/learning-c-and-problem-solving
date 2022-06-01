@@ -13,7 +13,6 @@ int main() {
     str2[length] = '\0';
     */
 
-    int length = strlen(str);
     strncpy(str2, str, 9);
     str2[9] = '\0';
 
