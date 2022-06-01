@@ -6,9 +6,11 @@ int main() {
     int sz = sizeof(st) / sizeof(st[0]);
     printf("%d\n", sz);
 
-    for (int i=0; i<sz; i++) {
-        printf("%d = %c, ASCII = %d\n", i, st[i], st[i]);
-    }
+    //for (int i=0; i<sz; i++) {
+    //    printf("%d = %c, ASCII = %d\n", i, st[i], st[i]);
+    //}
+
+    printf("%s\n", st);
 
     return 0;
 }
