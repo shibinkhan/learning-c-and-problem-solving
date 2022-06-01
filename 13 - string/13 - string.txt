@@ -29,3 +29,5 @@ gets(); বা puts(); এর মধ্যে %s বা & এসব লাগে
 
 13-3 Finding length of a string
 
+string এর উপর লুপ চালিয়ে length বের করা যায়, তবে length এতবেশি লাগে যে এভাবে লুপ চালিয়ে বার বার বের করা অযৌক্তিক,
+তাই strlen(arrayName); ইউজ করা হয়, যা #include<string.h> header এর মধ্যে থাকে।
