@@ -1,3 +1,6 @@
+/*
+// slow way
+
 #include<stdio.h>
 #include<string.h>
 
@@ -18,9 +21,27 @@ int main() {
         c[aLenght+i] = b[i];
     }
     c[cLenght] = '\0';
-
     printf("%s", c);
 
+    return 0;
+}
+*/
+
+// fast way
+
+#include<stdio.h>
+#include<string.h>
+
+int main() {
+    char a[] = "Hello";
+    int aLenght = strlen(a);
+
+    char b[] = "World";
+    int bLenght = strlen(b);
+
+    //strcat(a, b);
+
+    printf("%s", a);
 
     return 0;
 }
