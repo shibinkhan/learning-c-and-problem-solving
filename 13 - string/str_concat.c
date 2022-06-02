@@ -33,13 +33,14 @@ int main() {
 #include<string.h>
 
 int main() {
-    char a[] = "Hello";
+    char a[11] = "Hello";
     int aLenght = strlen(a);
 
-    char b[] = "World";
+    char b[111] = "World";
     int bLenght = strlen(b);
 
-    //strcat(a, b);
+    strncat(a, b, 5);
+    a[aLenght+bLenght] = '\0';
 
     printf("%s", a);
 
