@@ -47,5 +47,6 @@ string এর উপর লুপ চালিয়ে length বের করা 
 strcat(array1Name, array2Name); ফাংশন দিয়ে এটা করা হয়। buffer overflow ঠেকাতে strncat(array1Name, array2Name, howMuchCaracterWeCanConcat);
 
 
+
 13-6 Comparing two strings with strcmp
 
