@@ -43,7 +43,7 @@ string এর উপর লুপ চালিয়ে length বের করা 
 
 13-5 Concatenating two strings
 
-
+একটা string এর সাথে
 
 
 13-6 Comparing two strings with strcmp
