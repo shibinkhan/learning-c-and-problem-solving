@@ -50,3 +50,10 @@ strcat(array1Name, array2Name); ফাংশন দিয়ে এটা করা
 
 13-6 Comparing two strings with strcmp
 
+
+
+
+
+13.5 - 1 Practice
+
+আজকের প্র‍্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/1zjfwx0bNJT4ZebpUB4fsKn7PJJSUtsgYs9GBkJgLsng/edit?usp=drivesdk
