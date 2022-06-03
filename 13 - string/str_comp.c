@@ -44,6 +44,5 @@ int main() {
     int result = strcmp(a, b);
     printf("%d", result);
 
-
     return 0;
 }
