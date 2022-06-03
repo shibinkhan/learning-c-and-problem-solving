@@ -41,7 +41,8 @@ int main() {
     char a[100], b[100];
     scanf("%s %s", a, b);
 
-    int indx = 0;
+    int result = strcmp(a, b);
+    printf("%d", result);
 
 
     return 0;
