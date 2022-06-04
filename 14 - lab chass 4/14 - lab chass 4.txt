@@ -1,2 +1,4 @@
 14-1 Reversing An Array
 14-2 Solving Atcoder Lacked Number
+
+https://atcoder.jp/contests/abc248/tasks/abc248_a
