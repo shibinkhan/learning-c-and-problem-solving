@@ -4,21 +4,20 @@
 
 int main() {
     int sz = 100;
-    char str[sz];
-    scanf("%s", str);
+    char input[sz];
+    scanf("%s", input);
 
-    int length = strlen(str);
-    // printf("%d", length);
+    int lengthInput = strlen(input);
+    input[lengthInput] = '\0';
 
     char result[sz];
 
-    for (int i=0; i<length; i++) {
-        result[i] = str[length-i];
+    for (int i=0; i<lengthInput; i++) {
+        result[i] = input[lengthInput-(i+1)];
     }
-    result[length+1] = '\0';
+    result[lengthInput] = '\0';
 
     printf("%s", result);
-    printf("%d", strlen(result));
 
     return 0;
 }
