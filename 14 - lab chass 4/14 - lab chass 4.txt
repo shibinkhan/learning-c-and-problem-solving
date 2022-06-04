@@ -2,3 +2,12 @@
 14-2 Solving Atcoder Lacked Number
 
 https://atcoder.jp/contests/abc248/tasks/abc248_a
+
+
+
+14-3 Solving Atcoder Digit Machine
+
+https://atcoder.jp/contests/abc241/tasks/abc241_a
+
+
+
