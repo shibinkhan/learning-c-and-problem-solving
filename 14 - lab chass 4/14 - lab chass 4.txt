@@ -26,5 +26,3 @@ https://codeforces.com/problemset/problem/71/A
 14-6 Codeforces 271A Beautiful Year
 
 https://codeforces.com/problemset/problem/271/A
-
-
