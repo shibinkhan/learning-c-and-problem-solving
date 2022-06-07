@@ -13,27 +13,25 @@ int main() {
     }
 
     int ans = 0;
-    for (int i=0; i<n; i++) {
-        if (i==0) continue;
+    int minValue = points[0];
+    int maxValue = points[0];
 
-        bool max = true, min = true;
-
-        for (int j=0; j<i; j++) {
-            if (points[i] >= points[j]) {
-                min = false;
-            }
-            if (points[i] <= points[j]) {
-                max = false;
-            }
-        }
-        if (min == true || max == true) {
+    for (int i=1; i<n; i++) {
+        if (points[i] > maxValue || points[i] < minValue) {
             ans ++;
+        }
+        if (points[i] > maxValue) {
+            maxValue = a[i];
+        }
+        if (points[i] < maxValue) {
+            minValue = a[i];
         }
     }
     printf("%d", ans);
 
     return 0;
 }
+
 /*
 // slow way
 
