@@ -1,7 +1,6 @@
 // fast way
 
 #include<stdio.h>
-#include<stdbool.h>
 
 int main() {
     int n;
@@ -21,10 +20,10 @@ int main() {
             ans ++;
         }
         if (points[i] > maxValue) {
-            maxValue = a[i];
+            maxValue = points[i];
         }
-        if (points[i] < maxValue) {
-            minValue = a[i];
+        if (points[i] < minValue) {
+            minValue = points[i];
         }
     }
     printf("%d", ans);

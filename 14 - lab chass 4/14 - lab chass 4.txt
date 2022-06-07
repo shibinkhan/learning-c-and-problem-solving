@@ -17,4 +17,6 @@ https://codeforces.com/problemset/problem/155/A
 
 
 
+14-5 Solving Codeforces A Way Too Long Words
 
+https://codeforces.com/problemset/problem/71/A
