@@ -9,3 +9,5 @@ array হচ্ছে এক ধরনের data structure.
 Array Declaration: dataType arrayName[size];
 
 int array তে int type data এই রাখতে হবে, অন্য type এর data রাখা যায় না।
+
+
