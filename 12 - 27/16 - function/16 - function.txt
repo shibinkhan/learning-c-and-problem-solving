@@ -1,0 +1,12 @@
+Explanation of important terms - https://drive.google.com/file/d/1jMKM4O9tOFhJ4lCl1k-Z_4LNePl_6sRK/view?usp=sharing
+
+
+
+16-1 What are functions
+16-2 Declaring and Using Functions
+16-3 Function Paramters
+16-4 Function Return Value
+16-5 Example - The min function
+16-6 Function Scopes
+16-7 Functions and Arrays
+
