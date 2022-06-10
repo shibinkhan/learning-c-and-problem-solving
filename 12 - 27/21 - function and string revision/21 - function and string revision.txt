@@ -1,0 +1,15 @@
+স্ট্রিং রিলেটেড পিডিএফ ফাইলঃ https://drive.google.com/file/d/1UAYMngrYWhyh38zARPTGhYv5TAmJ79ze/view?usp=sharing
+
+
+
+21-1 Function Revision
+21-2 Function Parameter Passing Mechanisms
+21-3 Function return mechanisms
+21-4 String revision
+21-5 Implementing str functions
+
+
+
+21-5 Practice
+
+Practice problem set: https://docs.google.com/document/d/1f8f4wnCaq1DXHje-VK_9yjC96gpwVFfJYx-BvN5-zsY/edit?usp=sharing
