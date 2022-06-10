@@ -11,3 +11,5 @@ Array Declaration: dataType arrayName[size];
 int array তে int type data এই রাখতে হবে, অন্য type এর data রাখা যায় না।
 
 
+
+28-2 Array Declaration and How Array is Stored in Memory
