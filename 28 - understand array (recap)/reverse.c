@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main() {
-    int n = 5;
-    int array[n];
-
-
+    int array[5] = {1, 2, -3, 0, 5};
+    for (int i=4; i>=0; i--) {
+        printf("%d ", array[i]);
+    }
     return 0;
 }

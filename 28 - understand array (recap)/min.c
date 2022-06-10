@@ -6,6 +6,7 @@ int main() {
     int min = array[0];
     for (int i=1; i<5-1; i++) {
         // printf("%d ", array[i]);
+
         if (array[i] < min) {
             min = array[i];
         }
