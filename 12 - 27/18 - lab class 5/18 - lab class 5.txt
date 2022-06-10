@@ -1,0 +1,11 @@
+18.1 - Finding Max Of Array With Functions
+18.2 - Function For Rotating An Array
+18.3 - Implementing The Truncate Function
+18.4 - Pass By Address.
+18.5 - return by address
+
+
+
+18.5 - Practice Day 02
+
+আজকের প্র‍্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/1_WofqGwqZNMngdj5ZsXaRAjN1QYIo-cMyinTVDPU8PI/edit?usp=drivesdk
