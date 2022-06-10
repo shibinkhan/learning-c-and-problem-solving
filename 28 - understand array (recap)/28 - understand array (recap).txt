@@ -19,3 +19,5 @@ array te size দিয়ে দেওয়া মানে হচ্ছে memory �
 
 
 
+28-4 Array Initialization.
+
