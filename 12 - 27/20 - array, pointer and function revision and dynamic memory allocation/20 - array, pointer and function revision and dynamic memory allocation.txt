@@ -1,0 +1,12 @@
+Explanation of important terms: https://drive.google.com/file/d/1p2r0-Hp4fflbYNUeYpT1T7x7YXY_yhKV/view?usp=sharing
+
+Practice Contest (optional): https://vjudge.net/contest/496685
+Password: recursion
+
+
+
+20-1 Array Revision - Declaration, Initialization And Size
+20-2 Pointer Revision - Declarating And Dereferencing Pointers, Pointer Arithmatic
+20-3 Array And Pointers
+20-4 Revision - Array And Functions
+20-5 Dynamic Memory Allocation
