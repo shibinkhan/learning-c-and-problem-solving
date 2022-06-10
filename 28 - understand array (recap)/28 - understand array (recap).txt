@@ -15,7 +15,7 @@ int array তে int type data এই রাখতে হবে, অন্য ty
 28-2 Array Declaration and How Array is Stored in Memory
 28-3 Array Input and Output
 
-
+array te size দিয়ে দেওয়া মানে হচ্ছে memory তে স্পেস রিজার্ভ করা। int array[5] মানে, 5*4=20 byte রিজার্ভ করা।
 
 
 
