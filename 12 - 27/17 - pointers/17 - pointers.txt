@@ -1,0 +1,14 @@
+গুরুত্বপূর্ণ একটা আর্টিকেল - http://cpbook.subeen.com/2016/10/pointer.html
+
+
+
+17-1 What Are Pointers
+17-2 Working With Pointers
+17-3 Pointer Arithmatic
+17-4 Pointers and constants
+17-5 Using pointers to pass by address in functions
+17-6 Null pointers
+
+
+
+17-5 Practice
