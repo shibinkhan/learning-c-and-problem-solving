@@ -1,0 +1,15 @@
+Explanation of important terms: https://drive.google.com/file/d/1GuVRA9_Wtd8ahRXKhr1z1FoTRB0_sG1i/view?usp=sharing
+
+
+
+25-1 Binary Number System
+25-2 Base Conversions
+25-3 How Numbers are stored in memory
+25-4 Bitwise Operators - And, or, xor and not
+25-5 Bit Shifting Operators
+
+
+
+24-5 Practice
+
+আজকের প্র‍্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/1GBh0aNn8MinmIJB8pIy9czAPhps6iTAUaidgquAqi2k/edit?usp=drivesdk
