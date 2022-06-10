@@ -1,0 +1,10 @@
+Extra Resources: https://drive.google.com/file/d/10W8S3i9Y4miNveGLDjh5WbpvdQCtonPz/view?usp=sharing
+
+
+
+24-1 Intro to Structures
+24-2 Structure Declaration, Initialization and Assignment
+24-3 Working with Structures
+24-4 Functions and Structures
+24-5 Structures Containing arrays and structures
+24-6 A example of Debugging (Array of Structures)
