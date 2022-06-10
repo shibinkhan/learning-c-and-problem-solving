@@ -29,3 +29,7 @@ array init এর সময় ভ্যালুর স্থানে 0 দেও
 28-5 Sum, Max, Min and Reverse of an Array
 28-6 Variable Sized Array
 
+size কখনো পুনরায় initialize করা যায় না।
+
+
+
