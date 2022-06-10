@@ -1,0 +1,11 @@
+26-1 Using Structures to Return multiple values from a function
+26-2 Using Structures to return array from function
+26-3 Fructure Example - Fraction
+26-4 Manipulating bits of an integer
+26-5 Rotating ints
+
+
+
+26-1 Practice
+
+আজকের প্র‍্যাক্টিস প্রবলেম সেটঃ https://docs.google.com/document/d/1wiIvb7qM1CJpcSJYU6DSgxxNqmZc189ITcxGL8cIarg/edit?usp=drivesdk
