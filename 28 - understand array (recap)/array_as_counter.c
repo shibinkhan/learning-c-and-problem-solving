@@ -9,19 +9,16 @@ int main() {
         scanf("%d", &array[i]);
     }
 
-    int count1 = 0;
-    int count2 = 0;
-
+    int count[11] = {0};
     for (int i=0; i<n; i++) {
-        if (array[i] == 1) {
-            count1 ++;
-        }
-        if (array[i] == 2) {
-            count2 ++;
-        }
+        count[array[i]] ++;
     }
 
-    printf("1 = %d, 2 = %d", count1, count2);
+    for (int i=0; i<n; i++) {
+        if (array[i] != 0) {
+            printf("value = %d, count = %d\n", i, count[i]);
+        }
+    }
 
     return 0;
 }
