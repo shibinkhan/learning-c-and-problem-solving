@@ -21,6 +21,7 @@ int main() {
         }
     }
 
+    printf("1 = %d, 2 = %d", count1, count2);
 
     return 0;
 }
