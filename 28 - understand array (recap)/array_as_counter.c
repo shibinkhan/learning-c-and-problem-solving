@@ -9,6 +9,9 @@ int main() {
         scanf("%d", &array[i]);
     }
 
+    int count1 = 0;
+    int count2 = 0;
+
 
 
     return 0;
