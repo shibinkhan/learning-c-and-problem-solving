@@ -35,3 +35,4 @@ size কখনো পুনরায় initialize করা যায় না।
 
 28-7 Sizeof and Memset
 
+memset মা memorySet: এই ফাংশন দিয়ে একটা ডিক্লেয়ার করা array তে 0, -1 এসাইন করা যায়। এটি লেখার নিয়মঃ memset(arrayName, value, sizeof(arrayName));
