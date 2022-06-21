@@ -2,11 +2,10 @@
 
 int main() {
     char str[5];
-    scanf("%s", &str);
+    fgets(str, 5, stdin);
     //str[5] = '\0';
 
     printf("%s", str);
 
     return 0;
 }
-
