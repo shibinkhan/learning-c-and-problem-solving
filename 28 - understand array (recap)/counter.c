@@ -11,6 +11,11 @@ int main() {
         char val = str[i];
         counter[val-97] ++;
     }
+    for (char i='a'; i<='z'; i++) {
+        if (counter[i-97] != 0) {
+            printf("i = %c, count = %d\n", i, counter[i-97]);
+        }
+    }
 
     return 0;
 }
