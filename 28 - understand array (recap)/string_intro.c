@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main() {
-    int str[5] = {'a', 'b', 'c', 'd', 'e'};
-    int str2[6] = "abcde";
-    int str3[5];
+    char str[5] = {'a', 'b', 'c', 'd', 'e'};
+    char str2[6] = "abcde";
+    char str3[5];
 
     for (int i=0; i<5; i++) {
         scanf("%c", &str3[i]);
