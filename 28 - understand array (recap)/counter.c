@@ -14,7 +14,7 @@ int main() {
     }
     for (char i='a'; i<='z'; i++) {
         if (counter[i-'a'] != 0) {
-            printf("i = %c, count = %d\n", i, counter[i-'a']);
+            printf("word = %c, count = %d\n", i, counter[i-'a']);
         }
     }
 
