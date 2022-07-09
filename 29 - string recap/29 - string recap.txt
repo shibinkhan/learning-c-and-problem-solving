@@ -1,0 +1,21 @@
+29-1 Introduction to String
+
+অনেক গুল সিঙ্গেল ক্যারেক্টারের একটা গুপকেই String বলে।
+
+
+
+29-2 String Input Output
+
+watch from 15 minutes
+
+
+
+29-3 Use of strlen, strcpy, strcat, strcmp Functions
+29-4 Counter Array in string
+
+watch again
+
+
+
+29-5 Sum of Two Strings
+
