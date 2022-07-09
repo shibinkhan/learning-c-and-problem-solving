@@ -40,5 +40,3 @@ memset মা memorySet: এই ফাংশন দিয়ে একটা ডি
 
 
 28-8 Array as Counter
-
-
